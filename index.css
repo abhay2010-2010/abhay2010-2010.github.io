@@ -199,7 +199,7 @@ section .title::after {
 /* home section styling */
 .home-2,.home {
   display: flex;
-  background: url() no-repeat center;
+  background: url(./images/background.jpg) no-repeat center;
   background-color: #150e5f;
   height: 50vh;
   color: #fff;
