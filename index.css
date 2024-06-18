@@ -101,6 +101,7 @@ section .title::after {
   width: 100%;
   z-index: 999;
   padding: 30px 0;
+  background-color: #201b1b;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
   /* border: 4px solid green; */
@@ -129,7 +130,7 @@ section .title::after {
 }
 
 #nav-menu.sticky .logo a span {
-  color: #000;
+  color: #b2a3a3;
 }
 
 #nav-menu .menu li {
@@ -139,7 +140,7 @@ section .title::after {
 
 #nav-menu .menu li a {
   display: block;
-  color: #fff;
+  color: white;
   font-size: 20px;
   font-weight: 500;
   margin-left: 25px;
@@ -147,11 +148,11 @@ section .title::after {
 }
 
 #nav-menu .menu li a:hover {
-  color: #2253c8;
+  color: #164ac3;
 }
 
 #nav-menu.sticky .menu li a:hover {
-  color: #fff;
+  color: #c4c5c9;
 }
 
 #nav-menu.sticky .menu li a {
@@ -200,7 +201,7 @@ section .title::after {
 .home-2,.home {
   display: flex;
   background: url(./images/background.jpg) no-repeat center;
-  background-color: #150e5f;
+  background-color: #111;
   height: 50vh;
   color: #fff;
   min-height: 320px;
@@ -507,8 +508,6 @@ section .title::after {
 /* project section styling */
 .project-img{
   width: 100%;
-  background-size: cover;
-  object-fit: cover;
 }
 
 .project .carousel .project-card {
