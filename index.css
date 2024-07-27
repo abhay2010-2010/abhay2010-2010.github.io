@@ -33,8 +33,9 @@ html {
 section {
   padding: 100px 0;
 }
-#main_nav_bar{
-    padding: 0px 0;
+
+#main_nav_bar {
+  padding: 0px 0;
 }
 
 .max-width {
@@ -98,7 +99,7 @@ section .title::after {
 /* navbar styling */
 #nav-menu {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   z-index: 999;
   padding: 30px 0;
   background-color: #201b1b;
@@ -176,7 +177,7 @@ section .title::after {
   bottom: 10px;
   text-align: center;
   line-height: 45px;
-  color : #2e67ee;
+  color: #2e67ee;
   z-index: 9999;
   font-size: 30px;
   border-radius: 6px;
@@ -198,7 +199,8 @@ section .title::after {
 }
 
 /* home section styling */
-.home-2,.home {
+.home-2,
+.home {
   display: flex;
   background: url(./images/background.jpg) no-repeat center;
   background-color: #111;
@@ -242,13 +244,15 @@ section .title::after {
   color: #2253c8;
   font-weight: 500;
 }
-.home-2 .home-content button{
+
+.home-2 .home-content button {
   border-radius: 6px;
   background: #2253c8;
   border: 2px solid #2253c8;
   margin-top: 20px;
   transition: all 0.3s ease;
 }
+
 .home-2 .home-content a {
   display: inline-block;
   background: #2253c8;
@@ -265,6 +269,7 @@ section .title::after {
   color: #2253c8;
   background: none;
 }
+
 .home-2 .home-content button:hover {
   color: #2253c8;
   background: none;
@@ -412,7 +417,7 @@ section .title::after {
   border-radius: 5%;
   /* border: 5px solid crimson; */
   transition: all 0.3s ease;
-  
+
 }
 
 
@@ -506,7 +511,7 @@ section .title::after {
 }
 
 /* project section styling */
-.project-img{
+.project-img {
   width: 100%;
 }
 
@@ -947,6 +952,14 @@ footer span a:hover {
 }
 
 @media (max-width: 500px) {
+  /* body {
+    width: 100%;
+  } */
+
+  #nav-menu {
+    width: 100%;
+  }
+
   .home-2 .home-content .text-2 {
     font-size: 50px;
   }
@@ -1093,16 +1106,24 @@ footer span a:hover {
     /* border: 3px solid red; */
   }
 }
+
 .image-container {
-    max-width: 100%; /* Ensure the container doesn't exceed the screen width */
-    height: auto;    /* Maintain the image's aspect ratio */
-    display: block;  /* Ensure proper block-level behavior */
-    margin: auto;  /* Center the container horizontally */
+  max-width: 100%;
+  /* Ensure the container doesn't exceed the screen width */
+  height: auto;
+  /* Maintain the image's aspect ratio */
+  display: block;
+  /* Ensure proper block-level behavior */
+  margin: auto;
+  /* Center the container horizontally */
 }
 
 .image-container img {
-    max-width: 100%; /* Make sure the image doesn't exceed its container's width */
-    height: auto;
-  display: block;  /* Ensure proper block-level behavior */
-    margin: auto;/* Maintain the image's aspect ratio */
+  max-width: 100%;
+  /* Make sure the image doesn't exceed its container's width */
+  height: auto;
+  display: block;
+  /* Ensure proper block-level behavior */
+  margin: auto;
+  /* Maintain the image's aspect ratio */
 }

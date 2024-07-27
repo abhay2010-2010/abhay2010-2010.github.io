@@ -113,24 +113,24 @@ VANTA.BIRDS({
 })
 </script> */}
 
-// document.addEventListener("DOMContentLoaded", function() {
-//   // Function to initialize Vanta Birds effect
-//   var setVanta = function() {
-//       if (window.VANTA) {
-//           window.VANTA.BIRDS({
-//               el: "#home",
-//               mouseControls: true,
-//               touchControls: true,
-//               gyroControls: false,
-//               minHeight: 100.00,
-//               minWidth: 200.00,
-//               scale: 1.00,
-//               scaleMobile: 1.00
+document.addEventListener("DOMContentLoaded", function() {
+  // Function to initialize Vanta Birds effect
+  var setVanta = function() {
+      if (window.VANTA) {
+          window.VANTA.BIRDS({
+              el: "#home",
+              mouseControls: true,
+              touchControls: true,
+              gyroControls: false,
+              minHeight: 100.00,
+              minWidth: 200.00,
+              scale: 1.00,
+              scaleMobile: 1.00
 
-//           });
-//       }
-//   };
-
+          });
+      }
+  };
+})
 // Call setVanta when the page is loaded
 setVanta();
 
