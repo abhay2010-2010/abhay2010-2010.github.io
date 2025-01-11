@@ -139,4 +139,3 @@ if (window.edit_page && window.edit_page.Event) {
   window.edit_page.Event.subscribe("Page.beforeNewOneFadeIn", setVanta);
 }
 
-
