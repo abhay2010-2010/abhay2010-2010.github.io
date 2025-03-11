@@ -78,7 +78,7 @@ let drive = document
 function openDrive() {
   window.open(
     (href =
-      "https://drive.google.com/file/d/1ehrZdhVWBYkwnUJL9_Kmhs8j8CoIO_ck/view?usp=sharing")
+      "https://drive.google.com/file/d/1hD1MKMrCYdtCgDVQLfIoMLynWwqEJ0Wt/view?usp=sharing")
   );
 }
 
@@ -89,7 +89,7 @@ let drive2 = document
 function openDrive2() {
   window.open(
     (href =
-      "https://drive.google.com/file/d/1ehrZdhVWBYkwnUJL9_Kmhs8j8CoIO_ck/view?usp=sharing")
+      "https://drive.google.com/file/d/1hD1MKMrCYdtCgDVQLfIoMLynWwqEJ0Wt/view?usp=sharing")
   );
 }
 
